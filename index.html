@@ -10,15 +10,30 @@
     
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/styles.css">
     <title>Ristorante Con Fusion</title>
-</head>
+</head> 
 
 <body>
-
-    <header class="jumbotron row-header-container">
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <div class="container">
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#NAVBAR">
+            <span class="navbar-toggler-icon"> </span>
+        </button>
+        <a class="navbar-brand mr-auto" href="index.html">Ristorante con Fusion</a>
+            <div class="collapse navbar-collapse" id="NAVBAR">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+    </div>
+    </nav>
+    <header  class="jumbotron row-header-container">
         <div class="container">
-            <div class="row row-header">
+            <div class="row row-header  d-none d-sm-block">
                 <div class="col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
@@ -30,11 +45,11 @@
     </header>
 
     <div class="container">
-        <div class="row row-content align-items-center">
+        <div class="row row-content align-items-center ">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
-            <div class="col col-sm order-sm-first col-md">
+            <div class="col  col-sm order-sm-first col-md">
                 <h2>Uthappizza</h2>
                 <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
             </div>
@@ -70,7 +85,7 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>

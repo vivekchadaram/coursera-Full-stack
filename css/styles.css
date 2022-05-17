@@ -12,7 +12,7 @@
     min-height: 400px;
 }
 .footer {
-    background-color: beige;
+    background-color: #9d85c5;
     padding-top: 10px;
     margin: 0px auto;
 }
@@ -25,4 +25,10 @@
 }
 .address{
     font-size: 80%;
+}
+body{
+    padding-top: 50px;
+}
+.navbar-dark{
+    background: #512DA8;
 }
