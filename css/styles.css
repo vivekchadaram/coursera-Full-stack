@@ -26,9 +26,35 @@
 .address{
     font-size: 80%;
 }
-body{
-    padding-top: 50px;
-}
+    body{
+        padding-top: 50px;
+    }
 .navbar-dark{
     background: #512DA8;
+}
+.table {
+    min-width: 375px;
+ }
+ #reservation{
+    min-width: 370px;
+ }
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
